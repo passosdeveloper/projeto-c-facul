@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-int a,b,media;
+int a,b,resto;
 int main () {
     printf("Digite o primeiro número: \n");
     scanf("%d",&a);
     printf("Digite o segundo número: \n");
     scanf("%d",&b);
-    media = (a+b)/2;
-    printf("a média é: %d",media);
+    resto = a % b;
+    printf("O resto da divisão entre os números é: %d",resto);
     printf("\n");
 
 
