@@ -14,6 +14,7 @@ void main () {
     scanf( "\n%c",&b);
     printf("Digite um número racional: \n");
     scanf("%f",&c);
+    printf("A ordem inversa que foram digitados os itens está abaixo:\n");
     printf("\n%f",c);
     printf("\n%c",b);
     printf("\n%d",a);
