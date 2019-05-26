@@ -3,7 +3,7 @@
 
 
    
-void main () {
+int main () {
 
    float a;
    float b;
